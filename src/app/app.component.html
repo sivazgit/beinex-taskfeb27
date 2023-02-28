@@ -23,8 +23,8 @@
   </div>
 </nav>
 
-<div class="loader-container">
-  <mat-progress-bar mode="determinate" [value]=""></mat-progress-bar>
+<div class="loader-container" *ngIf="load |async">
+  <mat-progress-bar mode="determinate" [value]="" color="warn"></mat-progress-bar>
 </div>
 
 

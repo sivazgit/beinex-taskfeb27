@@ -7,6 +7,10 @@ import { ApiService } from './api.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  constructor(private api:ApiService){}
+ 
   title = 'task-feb27';
+
+  constructor(private api:ApiService){}
+
+  load = this.api.load
 }

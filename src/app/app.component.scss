@@ -4,7 +4,7 @@
 
 .navbar.navbar-expand-lg{
     padding: 15px;
-    background-color: #f2f2f2;
+    background-color:skyblue;
     .container{
         ul{
             margin: auto;
@@ -44,6 +44,12 @@
                 margin: 5px;
             }
         }
+    }
+}
+
+mat-progress-bar{
+    ::-ms-fill::after{
+        background-color: #000;
     }
 }
 
