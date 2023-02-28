@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width:100%;
+    max-width: 1200px;
+    margin: $spacer-0 auto;
+    padding-left: $spacer-4;
+    padding-right: $spacer-4;   
+    flex-wrap: wrap;
+    
+}
